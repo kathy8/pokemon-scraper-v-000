@@ -29,5 +29,5 @@ class Pokemon
      self.hp = power
      db.execute('UPDATE pokemon SET hp = ? WHERE id = ?', self.hp, self.id)
   end
- end	
-end
+ end
+
